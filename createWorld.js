@@ -18,3 +18,30 @@ while(notEarth){
     notEarth = false;
   }
 }
+
+console.log();
+console.log();
+
+class Person {
+  constructor(name){
+    this.durablilty = 100;
+    this.name = name;
+  }
+  sayName(){
+    console.log('안녕 난 '+this.name+'라고 해 :)'+this.durablilty+'살까지 살수 있어');
+  }
+}
+
+let adam = new Person('Adam Sandler');
+adam.sayName();
+console.log();
+
+class Woman extends Person {
+  complain(){
+    console.log('갈비뼈 내놔...\n');
+  }
+}
+
+let eve = new Woman('dㅣ브');
+eve.sayName();
+eve.complain();
