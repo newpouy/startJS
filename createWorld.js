@@ -14,7 +14,7 @@ while(notEarth){
   let godsWill = Math.floor(Math.random() * 10);  // 난수를 만드는 코드 입니다.
   console.log('Hey, is there the earth????? ....\n Re: '+godsWill);
   if(godsWill==7){
-    console.log("Lucky!!!!!!!\n");
+    console.log("Lucky!!!!!!! Here is the earth!!!!!!!");
     notEarth = false;
   }
 }
