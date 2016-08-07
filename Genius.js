@@ -6,6 +6,6 @@ export default class Genius extends Person {
     this.iq = 150+Math.floor(Math.random() * 50)
   }
   sayIamGenius(){
-    console.log('난 '+this.name+'. 내 IQ는 '+this.iq+'야.');
+    console.log('난 '+this.name+'. 내 IQ는 '+this.iq+'.');
   }
 }
