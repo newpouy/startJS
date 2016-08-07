@@ -22,7 +22,7 @@ while(notEarth){
 console.log();
 console.log();
 
-import Person from './person';
+import Person from './Person';
 
 let adam = new Person('Adam Sandler');
 adam.sayName();
@@ -37,3 +37,7 @@ class Woman extends Person {
 let eve = new Woman('dㅣ브');
 eve.sayName();
 eve.complain();
+
+import Genius from './Genius'
+let einstein = new Genius('Albert Einstein');
+einstein.sayIamGenius();
